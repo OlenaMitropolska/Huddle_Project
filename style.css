@@ -11,18 +11,46 @@
 body {
     height: 100vh;
     width: 100vw;
-    background-color: beige;
+  background-color: beige;
     font-family: 'Open Sans', sans-serif;
-}
-.container {
-height: 100%;
-width: 100%;
 background-image: url(/bg-mobile.svg);
 background-color: hsl(257, 40%, 49%);
 background-repeat: no-repeat;
+padding: 10px;
+display: flex;
+flex-direction: column;
+gap: 10px;
+
 }
 .header {
     font-family: 'Poppins', sans-serif;
     padding: 30px;
 }
-
+.image {
+    height: 35%;
+}
+.image img {
+height: 100%;
+width: 100%;
+}
+.text {
+    height: 50%;
+    width: 100%;
+    padding: 5px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+text-align: center;
+}
+.text button {
+   color: hsl(257, 40%, 49%);
+    background-color: white;
+    border: white;
+    border-radius: 30px;
+    width: fit-content;
+    padding: 10px 70px;
+    font-size: bolder;
+}
